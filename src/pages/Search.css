@@ -1,0 +1,114 @@
+/* Center-align the search results */
+.search-results {
+    max-width: 800px; /* Adjust the maximum width as needed */
+    margin: 20px auto; /* Center the results horizontally */
+  }
+  
+  /* Style the individual search result entries */
+  .search-result {
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    
+  }
+  
+  .result-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: orangered;
+    text-decoration: none; /* Remove text underline by default */
+  }
+  
+  .result-title:hover {
+    text-decoration: underline; /* Add text underline on hover */
+  }
+  
+  
+  .result-url {
+    color:blue; /* Google search result link color */
+    text-decoration: none;
+    font-size: 14px;
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .result-url:hover {
+    text-decoration: underline;
+  }
+  
+  .result-snippet {
+    font-size: 16px;
+  }
+
+  
+  .search__icon > span {
+    font-size: 14px;
+    color: #70757a;
+    cursor: pointer;
+  }
+  
+  .search__icon > .MuiSvgIcon-root {
+    font-size: 20px;
+    color: #4285f4; /* Google's blue color */
+    cursor: pointer;
+  }
+  
+  /* Style the active icon and label */
+  .search__icon > .MuiSvgIcon-root.active,
+  .search__icon > span.active {
+    color: #000; /* Active color, you can choose your preferred color */
+    font-weight: bold;
+  }
+  .search__icon {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center horizontally */
+    gap: 30px;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .search__icon > span {
+    font-size: 14px;
+    color: #70757a;
+    cursor: pointer;
+  }
+  
+  .search__icon > .MuiSvgIcon-root {
+    font-size: 20px;
+    color: #4285f4; /* Google's blue color */
+    cursor: pointer;
+  }
+  
+  /* Style the active icon and label */
+  .search__icon > .MuiSvgIcon-root.active,
+  .search__icon > span.active {
+    color: #000; /* Active color, you can choose your preferred color */
+    font-weight: bold;
+  }
+  .header {
+    background-color: #f2f2f2; /* Background color similar to Google's interface */
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .skyLogoRow {
+    display: flex;
+    align-items: center;
+  }
+  
+  .skyLogo {
+    height: 60px; /* Adjust the height as needed */
+    margin-right: 16px; /* Add spacing between the logo and search bar */
+  }
+  
+  /* Style the SearchBar component according to your preferences */
+  
+  
+  
+  
+  

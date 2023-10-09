@@ -1,0 +1,103 @@
+.home__headerLeft {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 10px 24px;
+    
+    
+  }
+  
+  .home__headerLeft a,
+  .home__headerLeft svg {
+    color: #5f6368;
+    margin-left: 20px;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 17px;
+    cursor: pointer;
+  }
+  
+  .home__headerLeft a:hover,
+  .home__headerLeft svg:hover {
+    color: #202124;
+    text-decoration: underline;
+  }
+  
+  /* Specific styling for the avatar icon */
+  .home__headerLeft .avatarIcon {
+    border-radius: 50%;
+    overflow: hidden;
+  }
+  
+  .home__headerLeft .avatarIcon img {
+    display: block;
+    width: 30px;
+    height: 30px;
+    font-size: larger;
+  }
+  
+  /* Specific size for the app icon */
+  .home__headerLeft .appIcon {
+    width: 30px;
+    height: 30px;
+    font-size: larger;
+  }
+  
+  .home__body {
+    
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    
+}
+
+.home__searchIcon {
+    
+    color: #f12711;  /* fallback for old browsers */
+    color: -webkit-linear-gradient(to right, #f5af19, #f12711);  /* Chrome 10-25, Safari 5.1-6 */
+    color: linear-gradient(to right, #f5af19, #f12711); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    padding: 10px; /* Color for the Search icon */
+}
+
+.home__searchInput {
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 16px;
+    width: 500px;
+    
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.home__centerFocusWeakIcon{
+    color: #4285f4;
+  
+    padding: 10px 1px;
+}
+
+.home__micIcon {
+    color: #4285f4;
+    border-radius: 10px;
+    padding: 10px 1px;
+     /* Color for the Mic icon */
+}
+
+
+.home__skyLogo {
+    width: 200px; /* Adjust the width as needed */
+    height: auto; /* Maintain the aspect ratio */
+}
+
+/* Style for the Sky logo row */
+.home__skyLogoRow {
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;/* Add spacing below the logo row */
+}
+
+.home__searchRow{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+   
+}
